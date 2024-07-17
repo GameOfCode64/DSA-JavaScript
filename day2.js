@@ -2,7 +2,7 @@
 
 // Todo: Topic 1 (Big O Notation)
 
-// Todo: O(n) -> ("signifies that the execution time of the algorithm grows linearly in proportion to the size of the input data(n) ")  (Linear Search) (OK Time Complexity)
+// Todo: O(n) -> ("signifies that the execution time of the algorithm grows linearly in proportion to the size of the input data(n) ")  (Linear Search) (Good Complexity)
 
 const groceryList = ["Milk", "Eggs", "Bread", "Butter", "Cheese", "Tomatoes"];
 
