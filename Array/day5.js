@@ -8,7 +8,7 @@
 // * only once the relative order of elements should ke kept
 // * the same then return the number of unique elements in nums
 
-// * input --> [1,1,2] --> output: 5
+// * input --> [1,1,2] --> output: 2
 // * input --> [0,0,1,1,2,2,3,3,4] --> output: 5
 // [0,0,1,1,2,2,3,3,4]
 // ! :- My answer (Right Answer with Good Time Complexity)
