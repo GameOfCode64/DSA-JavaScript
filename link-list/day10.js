@@ -1,0 +1,35 @@
+// ! DSA in JavaScript day 10
+
+// Todo: Link List
+
+class Node {
+  constructor(value) {
+    this.head = value;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor(value) {
+    this.head = new Node(value);
+    this.teal = this.head;
+    this.length = 1;
+  }
+
+  push(value) {
+    let newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+      this.teal = newNode;
+    }
+
+    this.teal.next = newNode;
+    this.teal = newNode;
+    this.length++;
+  }
+}
+
+const MyList = new LinkedList(1);
+
+MyList.push(10);
+console.log(MyList);
