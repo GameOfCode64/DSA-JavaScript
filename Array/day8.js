@@ -1,4 +1,4 @@
-// ! DSA in JavaScript day 5
+// ! DSA in JavaScript day 8
 
 // Todo: Topic Array
 
