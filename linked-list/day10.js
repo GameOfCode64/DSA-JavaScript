@@ -10,12 +10,14 @@ class Node {
 }
 
 class LinkedList {
+  // Todo: How to create LinkedList
   constructor(value) {
     this.head = new Node(value);
     this.teal = this.head;
     this.length = 1;
   }
 
+  // Todo: How to add element in LinkedList
   push(value) {
     let newNode = new Node(value);
     if (!this.head) {
