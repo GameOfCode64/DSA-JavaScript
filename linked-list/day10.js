@@ -1,6 +1,6 @@
 // ! DSA in JavaScript day 10
 
-// Todo: Link List
+// Todo: Linked List
 
 class Node {
   constructor(value) {
